@@ -19,7 +19,7 @@ const TOPICS = [
 ];
 
 const MASTODON_CLIENT = Mastodon({
-  access_token: process.env.ACCESS_TOKEN,
+  access_token: process.env.MASTODON_ACCESS_TOKEN,
   api_url: "https://social.saarland/api/v1/"
 });
 
