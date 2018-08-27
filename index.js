@@ -6,6 +6,7 @@ const CronJob = require("cron").CronJob;
 require("dotenv").config();
 
 const TOPICS = [
+  "mastodon",
   "saarland",
   "saar",
   "Illingen",
@@ -19,7 +20,7 @@ const TOPICS = [
 
 const MASTODON_CLIENT = Mastodon({
   access_token: process.env.ACCESS_TOKEN,
-  api_url: "https://botsin.space/api/v1/"
+  api_url: "https://social.saarland/api/v1/"
 });
 
 
