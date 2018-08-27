@@ -3,7 +3,7 @@ const uniqueRandomArray = require("unique-random-array");
 const express = require("express");
 const app = express();
 const CronJob = require("cron").CronJob;
-require("dotenv").config();
+// require("dotenv").config();
 
 const TOPICS = [
   "mastodon",
